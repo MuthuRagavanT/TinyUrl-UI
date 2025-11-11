@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: tiny-url-ui
-          path: .
+          path: dist/TinyUrl-UI/browser
 
   deploy:
     runs-on: ubuntu-latest
@@ -61,7 +61,8 @@ jobs:
         with:
           app-name: 'tiny-url-UI'
           slot-name: 'Production'
-          package: .
+          package: dist/TinyUrl-UI/browser
 
           
+
 
