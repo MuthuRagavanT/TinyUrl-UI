@@ -45,7 +45,7 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: node-app
+          name: tiny-url-ui
           path: dist/TinyUrl-UI/browser
           
       - name: Login to Azure
@@ -64,5 +64,6 @@ jobs:
           package: dist/TinyUrl-UI/browser
 
           
+
 
 
