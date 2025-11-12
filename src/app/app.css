@@ -1,0 +1,23 @@
+.tiny-url-bg {
+background: linear-gradient(145deg, #e8fff3, #d2f6e5);
+}
+
+.scrollable-list {
+max-height: 300px;
+overflow-y: auto;
+border-radius: 8px;
+scrollbar-width: thin;
+}
+
+.scrollable-list::-webkit-scrollbar {
+width: 8px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+background-color: #c5d7ef;
+border-radius: 10px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb:hover {
+background-color: #a9c4e9;
+}
